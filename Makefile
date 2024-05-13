@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -fsanitize=address -Wall -Wextra -Iinclude 
+CFLAGS = -fsanitize=address -fprofile-generate -Wall -Wextra -Iinclude 
 SRC_DIR = src
 INCLUDE_DIR = include
 BUILD_DIR = build
